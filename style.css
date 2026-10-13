@@ -1,0 +1,90 @@
+body{
+    background-color: rgb(243, 243, 243);
+}
+
+h1{
+    color:brown;
+    text-align: center;
+    font-size: 40px;
+}
+
+h2{
+    text-align: center;
+}
+
+.card{
+    border: 1px solid gray;
+    padding: 10px;
+    margin: 20px;
+    box-shadow: 2px 2px gray;
+    border-radius: 10px;
+}
+
+.card:hover{
+    box-shadow: 5px 5px 10px gray;
+}
+
+p {
+    text-align: center;
+}
+
+a {
+    text-align: center;
+}
+
+a:hover{
+    color: blueviolet;
+}
+
+.container{
+    display: flex;
+}
+
+.calculator-display{
+    border: 1px solid black;
+    padding: 10px;
+    text-align: right;
+    font-size: 30px;
+}
+
+.calculator-buttons {
+    text-align: center;
+}
+
+.calculator-button{
+    font-size: 20px;
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+.calculator-button:hover{
+    box-shadow: 3px 3px 5px gray;
+}
+
+.login-form {
+    text-align: center;
+}
+
+.login-button {
+    padding: 5px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.login-button:hover {
+    box-shadow: 3px 3px 5px gray;
+}
+
+.explorer {
+    border: 1px solid black;
+    padding: 10px;
+    width: 200px;
+}
+
+.editor {
+    border: 1px solid black;
+    padding: 10px;
+    flex: 1;
+}
